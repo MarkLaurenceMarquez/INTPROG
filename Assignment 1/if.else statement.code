@@ -1,0 +1,8 @@
+<?php
+$money = 50;
+if ($money >= 100) {
+    echo "You can buy the item.";
+} else {
+    echo "You do not have enough money.";
+}
+?>
