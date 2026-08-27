@@ -1,6 +1,0 @@
-<?php
-$temperature = 27;
-if ($temperature >= 25) {
-    echo "The weather is hot.";
-}
-?>
