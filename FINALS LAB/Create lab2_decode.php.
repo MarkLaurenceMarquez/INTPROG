@@ -1,0 +1,14 @@
+<?php 
+// Declare a JSON string with name, age, and email 
+$jsonData = '{"name":"Mark Laurence","age":21,"email":"marquezmarklaurence_bsit@plmun.edu.ph"}'; 
+
+// Convert JSON string into a PHP object 
+$objectData = json_decode($jsonData); 
+
+// Convert JSON string into a PHP associative array 
+$arrayData = json_decode($jsonData, true); 
+
+// Display individual values in both formats 
+echo "Object: " . $objectData->name . "<br>"; 
+echo "Array: " . $arrayData["email"]; 
+?>
