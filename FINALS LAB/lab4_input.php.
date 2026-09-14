@@ -1,0 +1,11 @@
+<?php
+// Declare a JSON string
+$jsonData = '{"username":"launzz","password":"12345"}';
+
+// Decode JSON data into a PHP associative array
+$data = json_decode($jsonData, true);
+
+// Display the received values
+echo "Username: " . $data["username"] . "<br>";
+echo "Password: " . $data["password"];
+?>
