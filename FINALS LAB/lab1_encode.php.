@@ -1,0 +1,14 @@
+<?php
+// Declare an associative array
+$student = array(
+    "name" => "Mark Laurence",
+    "age" => 21,
+    "course" => "BSIT"
+);
+
+// Convert PHP array to JSON
+$jsonData = json_encode($student);
+
+// Output the JSON string
+echo $jsonData;
+?>
